@@ -1,0 +1,4 @@
+/node_modules/*
+
+/lib/exercism/ecmascript/**/babel-output/*
+/lib/exercism/ecmascript/**/node_modules/*
