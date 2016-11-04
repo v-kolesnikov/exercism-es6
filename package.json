@@ -1,24 +1,31 @@
 {
   "name": "exercism-es6",
   "version": "1.0.0",
-  "description": "EcmaScript exercises from exercism.io",
+  "description": "EcmaScript exercism.io solutions",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "test": "jest"
   },
-  "author": "Vasily Kolesnikov",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "https://github.com/v-kolesnikov/exercism-es6.git"
   },
+  "keywords": [
+    "exercism",
+    "computer-science",
+    "es6"
+  ],
+  "author": "Vasily Kolesnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v-kolesnikov/exercism-es6/issues"
+  },
+  "homepage": "https://github.com/v-kolesnikov/exercism-es6#readme",
+  "dependencies": {},
   "devDependencies": {
-    "babel-core": "^6.13.2",
-    "babel-preset-es2015": "^6.13.2",
-    "babel-preset-es2016": "^6.11.3",
-    "babel-preset-es2017": "^6.14.0",
-    "babel-preset-latest": "^6.14.0",
-    "babel-preset-stage-0": "^6.5.0",
-    "eslint": "^3.3.0"
+    "babel-cli": "^6.18.0",
+    "babel-jest": "^16.0.0",
+    "babel-preset-latest": "^6.16.0",
+    "jest": "^16.0.2"
   }
 }
