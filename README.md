@@ -1,1 +1,1 @@
-# Exersicm ES6
+# Exercism ES6

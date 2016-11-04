@@ -1,4 +1,7 @@
 /node_modules/*
+/jest
 
+
+/* exercism.io stuff */
 /lib/exercism/ecmascript/**/babel-output/*
 /lib/exercism/ecmascript/**/node_modules/*

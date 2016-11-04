@@ -1,4 +1,4 @@
-FROM node
+FROM node:6
 MAINTAINER Vasily Kolesnikov re.vkolesnikov@gmail.com
 
 ARG EXERCISM_CLI_VERSION
@@ -19,9 +19,7 @@ RUN exercism configure --key=$EXERCISM_KEY --dir="$APP_HOME/lib/exercism"
 WORKDIR $APP_HOME
 
 # configure Node.js
-COPY package.json $APP_HOME/
-RUN npm install -g gulp-cli
-RUN npm install
+RUN npm install -g yarn
 
 USER root
 CMD bash
